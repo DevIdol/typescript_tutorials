@@ -4,6 +4,6 @@ const enum SeatChoice {
     WINDOW,
 }
 
-const hcSeat = SeatChoice.AISLE
+const hcSeat: SeatChoice = SeatChoice.AISLE
 
 export{}
