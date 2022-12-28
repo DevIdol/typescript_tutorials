@@ -10,7 +10,7 @@
 
 class User {
 
-    private _age = 80
+    protected _age = 80
 
     city?: string;
     constructor(private email: string, public name: string) {
@@ -36,6 +36,13 @@ class User {
             throw new Error("Age can't be more than 120")
         }
         this._age = age
+    }
+}
+
+class SubUser extends User{
+    isFamily: boolean = true
+    changeAge(){
+        this._age = 90
     }
 }
 
