@@ -1,0 +1,5 @@
+console.log("Pure TS")
+console.log("Pure TS")
+console.log("Pure TS")
+console.log("Pure TS")
+console.log("Pure TS")
