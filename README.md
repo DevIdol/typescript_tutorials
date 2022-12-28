@@ -8,12 +8,18 @@ tsc -v
 
 - **Setup TS**
 ```
+npm init -y
+
 tsc --init
 ```
 
 - **Transpile TS to JS**
 ```
 tsc fileName.ts
+
+tsc -w  //auto compile
+
+tsc  //all compile
 ```
 
 - **Types**
