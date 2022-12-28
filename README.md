@@ -4,8 +4,11 @@
 sudo npm i -g typescript
 
 tsc -v
+```
 
-yarn tsc --init
+- **Setup TS**
+```
+tsc --init
 ```
 
 - **Transpile TS to JS**
