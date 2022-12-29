@@ -28,3 +28,13 @@ identityFour<Bootle>({
     brand: "",
     type: 1
 })
+
+function getSearchProducts<T>(products: T[]): T {
+    const myIndex = 3
+    return products[myIndex]
+}
+
+const getMoreSearchProducts = <T>(products: T[]): T => {
+    const myIndex = 4
+    return products[myIndex]
+}
